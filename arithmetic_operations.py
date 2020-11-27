@@ -12,3 +12,13 @@ print(numbers / 2)
 print(numbers // 2)
 print(numbers ** 2)
 
+
+# We can use arithmetic operations between multiple numpy arrays
+# They just need to have same dimension or be broadcasted into same dimension
+a = np.array([1,2,3,4,5])
+b = np.array([10,20,30,40,50])
+
+# Element-wise addition
+print(a + b) 
+
+
